@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Hero Player Draft</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- <link rel="stylesheet" href="css/custom.css"> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="Script/source/html2canvas.js"></script>
+    <script src="Script/source/canvas2image.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            //alert();
+        });
+
+        $(function () {
+            $("#btnSave").click(function () {
+                html2canvas($(".main_tem_back"), {
+                    onrendered: function (canvas) {
+                        alert(canvas.toDataURL("image/jpeg", 1));
+
+                        $('#btnSave').attr('href', canvas.toDataURL("image/jpeg", 1));
+
+                    }
+                });
+            });
+        });
+    </script>
+    <style type="text/css">
+	   body
+	   {
+		
+	   }
+       .main_tem_back {
+            background: transparent url("img/reset/draft3.png");
+            width: 1920px;
+            height: 1080px;
+            font-family: 'square721_btroman';
+            
+            
+        }
+
+        @font-face {
+            font-family: 'square721_btroman';
+            src: url('sqr721n-webfont.eot');
+            src: url('sqr721n-webfont.eot?#iefix') format('embedded-opentype'), url('sqr721n-webfont.woff') format('woff'), url('fonts/Square.ttf') format('truetype'), url('sqr721n-webfont.svg#square721_btroman') format('svg');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'square721_btroman';
+            src: url(fonts/Square.ttf);
+        }
+
+     <!--   .main_container {
+            height: 1800px;
+			width: 1920px;
+            background: transparent url("img/heroplayer1.png") repeat scroll 0% 0% / cover;
+			background-size: 2000px;
+			background-repeat: no-repeat;
+        } -->
+
+        .main_tem_back {
+            height: 1080px;
+           
+        }
+
+			.hero_player_layer
+			{
+				
+			}
+
+            .hero_player_layer h2 {
+                font-size: 49px;
+                color: #fff;
+                text-transform: uppercase;
+                font-family: 'square721_btroman';
+                padding-top: px;
+				text-shadow: -1px -3px 0 #000, 6px -1px 0 #000, -1px 6px 0 #000, 6px 6px 0 #000;
+				margin-left:189px;
+				padding-top:24px;
+            }
+
+            .hero_player_layer p {
+                font-size: 46px;
+                color: #fff;
+                text-transform: uppercase;
+                margin-left:604px;
+                font-family: 'square721_btroman';
+				text-shadow: -1px -3px 0 #000, 6px -1px 0 #000, -1px 6px 0 #000, 6px 6px 0 #000;
+            }
+
+        .player_pic {
+            padding-top: 263px;
+        }
+
+        .hero_player_table h2 {
+            
+            color: #fff;
+            font-size: 54px;
+            margin-left:500px;
+            font-family: 'square721_btroman';
+            text-transform: uppercase;
+            padding-top: 62px;
+			text-shadow: -1px -3px 0 #000, 6px -1px 0 #000, -1px 6px 0 #000, 6px 6px 0 #000;
+        }
+
+        table {
+            margin-left: 39%;
+            line-height: 55px;
+            width: 58%;
+            margin-top: 39px;
+        }
+
+            table tr td {
+                color: #fff;
+                font-size: 35px;
+                text-transform: uppercase;
+                font-family: 'square721_btroman';
+                line-height: 86px;
+                text-align: center;
+				text-shadow: -1px -3px 0 #000, 6px -1px 0 #000, -1px 6px 0 #000, 6px 6px 0 #000;
+            }
+
+        .hero_player_table table tr th {
+            color: #fff;
+            text-align: center;
+            font-size: 33px;
+            text-transform: uppercase;
+            font-family: 'square721_btroman';
+			text-shadow: -1px -3px 0 #000, 6px -1px 0 #000, -1px 6px 0 #000, 6px 6px 0 #000;
+        }
+
+        .hero_player_color h2 {
+           
+            color: #fff;
+            font-size: 45px;
+            text-transform: uppercase;
+            padding-top: 68px;
+            font-family: 'square721_btroman';
+			margin-left:500px;
+			text-shadow: -1px -3px 0 #000, 6px -1px 0 #000, -1px 6px 0 #000, 6px 6px 0 #000;
+			margin-left:582px;
+        }
+
+        .hero_player_value {
+            
+        }
+
+            .hero_player_value h5 {
+                font-size: 40px;
+                text-transform: uppercase;
+                color: #fff;
+                font-family: 'square721_btroman';
+				padding-top:55px;
+				text-shadow: -1px -3px 0 #000, 6px -1px 0 #000, -1px 6px 0 #000, 6px 6px 0 #000;
+				
+            }
+
+            .hero_player_value p {
+                color: #fff;
+                font-size: 70px;
+                text-transform: uppercase;
+                font-family: 'square721_btroman';
+				text-shadow: -1px -3px 0 #000, 6px -1px 0 #000, -1px 6px 0 #000, 6px 6px 0 #000;
+				padding-top:20px;
+            }
+			.hero_player_profile 
+			{
+				margin-top: -42px;
+				padding-left: 50px;
+			}
+
+        .hero_player_profile p {
+            color: #fff;
+            font-family: 'square721_btroman';
+            font-size: 32px;
+            
+            text-transform: uppercase;
+			text-shadow: -1px -3px 0 #000, 6px -1px 0 #000, -1px 6px 0 #000, 6px 6px 0 #000;
+        }
+		
+        
+    </style>
+</head>
+<body>
+    <a id="btnSave" download="player stats.png" href="#" target="_blank">Download Graph</a>
+   
+    <div class="main_tem_back">
+        
+            <div class="col-md-4">
+                <div class="player_logo">
+                   <!-- <img src="img/logo.png" width="" height="" />-->
+                </div>
+                <div class="player_pic">
+                    <img src="img/suliemannbenn 2.png" width="" height="" class="hero_players" />
+                </div>
+                <div class="hero_player_profile">
+                    <p>Age 27<p>
+                    <p>West Indian</p>
+                    <p>Left Hand Bowler</p>
+
+                </div>
+
+            </div>
+            <div class="col-md-8">
+                <div class="hero_player_layer">
+                    <h2>Hero Cpl Players Draft</h2>
+                    <p>Player Profile</p>
+                </div>
+                <div class="hero_player_layer1">
+                    <!-- <h2>Sulieman Benn</h2>
+                    <p>Player Profile</p> -->
+                </div>
+                <div class="hero_player_table">
+                    <h2>Sulieman Benn</h2>
+
+                    <table class="">
+                        <tr>
+                            <th>T20</th>
+                            <th>Inns</th>
+                            <th>wkts</th>
+                            <th>Econ</th>
+                        </tr>
+                        <tr>
+                            <td>cpl</td>
+                            <td class="cpl-players-drt">48</td>
+                            <td class="cpl-players-drt">39</td>
+                            <td class="cpl-players-drt">6.25</td>
+
+                        </tr>
+                        <tr>
+                            <td>int</td>
+                            <td class="cpl-players-drt">18</td>
+                            <td class="cpl-players-drt">16</td>
+                            <td class="cpl-players-drt">7.35</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>all</td>
+                            <td class="cpl-players-drt">66</td>
+                            <td class="cpl-players-drt">55</td>
+                            <td class="cpl-players-drt">6.56</td>
+
+                        </tr>
+
+                    </table>
+                </div>
+                <div class="hero_player_color">
+                    <h2>Drafted By T & T</h2>
+
+
+                </div>
+                <div class="row hero_player_value">
+				   
+                    <div class="col-md-12" >
+					<div style="float:left;padding-left: 260px;">
+						<h5>Round 6</h5>
+                          <p>us $60,000</p>
+						    </div>
+							<div style="float:left">
+								<img src="img/redsteel.png" width=""   style="float:left;margin-top:60px;padding-left: 181px;"/>
+							
+							</div>
+
+                    </div>
+					<div class="col-md-2" >
+                     
+                       
+                    </div>
+                    
+
+                </div>
+
+            </div>
+        </div>
+
+</body>
+</html>

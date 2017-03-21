@@ -1,0 +1,131 @@
+body
+{
+	
+	background: transparent url("../img/kenoval_panorama.png") repeat scroll 0% 0% / cover;
+	width:1920px;
+	height:1800px;
+	font-family: 'square721_btroman';
+}
+@font-face {
+    font-family: 'square721_btroman';
+    src: url('sqr721n-webfont.eot');
+    src: url('sqr721n-webfont.eot?#iefix') format('embedded-opentype'),
+         url('sqr721n-webfont.woff') format('woff'),
+         url('fonts/Square.ttf') format('truetype'),
+         url('sqr721n-webfont.svg#square721_btroman') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+  @font-face 
+  {
+    font-family: 'square721_btroman';
+    src: url(fonts/Square.ttf);
+}
+.main_container
+{
+	height:1100px;
+	background: transparent url("../img/heroplayer1.png") repeat scroll 0% 0% / cover;
+}
+.hero_player_layer
+{
+	float:right;
+}
+.hero_player_layer h2
+{
+	
+	font-size:57px;
+	color:#fff;
+	text-transform:uppercase;
+	font-family: 'square721_btroman';
+	padding-top:19px;
+	
+}
+.hero_player_layer p
+{
+	
+	font-size:57px;
+	color:#fff;
+	text-transform:uppercase;
+	float:right;
+	font-family: 'square721_btroman';
+	
+}
+.player_pic
+{
+	
+	padding-top:34px;
+}
+
+.hero_player_table h2
+{
+		float:right;
+		color: rgb(255, 255, 255);
+		font-size: 79px;
+		float: right;
+		font-family: 'square721_btroman';
+		text-transform:uppercase;	
+		padding-top:53px;
+}
+table
+  {
+  
+  margin-left: 46%;
+  line-height: 55px;
+  width: 58%;
+  margin-top:39px;
+  }
+table tr td 
+  {
+	color:#fff;
+	
+	font-size:50px;
+	text-transform: uppercase;
+	font-family: 'square721_btroman';
+  }
+.hero_player_table table tr th
+  {
+	color:#fff;
+	
+	font-size:50px;
+	 text-transform: uppercase;
+	 font-family: 'square721_btroman';
+  }
+  .hero_player_color h2
+  {
+	  float:right;
+	  color:#fff;
+	  font-size: 65px;
+		text-transform: uppercase;
+		padding-top: 152px;
+		font-family: 'square721_btroman';
+	  
+  }
+  .hero_player_value
+	{
+		margin-top:287px;
+	}
+  .hero_player_value h5
+	{
+	    font-size: 45px;
+		text-transform: uppercase;
+		color:#fff;
+		font-family: 'square721_btroman';
+	}
+   .hero_player_value p
+	{
+	  color:#fff;
+	  font-size: 88px;
+		text-transform: uppercase;
+		
+		font-family: 'square721_btroman';
+	}
+.hero_player_profile p
+{
+	color:#fff;
+	font-family: 'square721_btroman';
+	 font-size: 43px;
+  
+    margin-top: -20px;
+}
+}
